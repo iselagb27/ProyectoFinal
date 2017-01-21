@@ -12,6 +12,12 @@ p {
     font-family: "Arial", Georgia, Serif;
 }
 
+/*
+.descripcion{
+    font-family: "Arial", Georgia, Serif;
+    text-align: center;
+}
+*/
 
 .titulo {
     font-family: "Comics", Georgia, Arial;
@@ -30,6 +36,8 @@ p {
 img{
   max-width: 100%;
   height: auto;
+  width: 230;
+  height: 230;
 }
 
 .imagen{
@@ -54,8 +62,9 @@ img{
 .imagen:hover{
   background-color: #f1f1f1;
   height: 300px;
+  width: 230px;
   transform:  translate(10px, 10px);
-    color: #000000;
+  color: #000000;
 }
 
 /* Home Page Carousel */
